@@ -1,0 +1,5 @@
+{
+  "name": "TripPlan",
+  "description": "A web application to plan and manage your travel itineraries, collaborate with friends, and share your plans with a community.",
+  "requestFramePermissions": []
+}
