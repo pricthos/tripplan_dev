@@ -176,15 +176,12 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen }) => {
                             onClick={() => setIsOpen(false)}
                         >
                             <div className="flex items-center flex-1">
-                                <div className="w-10 h-10 rounded-full bg-slate-600 flex items-center justify-center mr-3">
-                                    <LogIn className="w-5 h-5 text-gray-300" />
-                                </div>
                                 <div>
                                     <p className="text-sm font-semibold text-white">로그인</p>
                                     <p className="text-xs text-gray-400">로그인하고 모든 기능을 이용하세요</p>
                                 </div>
                             </div>
-                            <ChevronRight className="w-5 h-5 text-gray-400" />
+                           <LogIn className="w-4 h-4 text-gray-400" />
                         </Link>
                     )}
                 </div>
